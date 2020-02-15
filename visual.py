@@ -7,7 +7,7 @@ def vowels_bar(file):
     print(results)
     x= results.keys()
     h= results.values()
-    c= ['blue', 'yellow', 'green']   #color for regions can be given aswell by color=c in param....not necessary but
+    c= ['blue', 'yellow', 'black']   #color for regions can be given aswell by color=c in param....not necessary but
     plt.bar(x,h,color=c)           #x,h are required param...h is height= y axis
     plt.show()
 
